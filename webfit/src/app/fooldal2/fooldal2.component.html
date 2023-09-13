@@ -1,0 +1,30 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+            <link rel="stylesheet" href="fooldal2.component.css">
+            <title>WebFit</title>
+    </head>
+    <body>
+        <header>
+            WebFit
+        </header>
+        <div class="Értékek">
+            <form>
+                <hr>
+                <h1>Stats</h1>
+                <br>
+                <span for="bmi">BMI</span>
+                <input type="text" id="bmi" [(ngModel)]="bmiValue" [ngModelOptions]="{ standalone: true }"  class="BMI" placeholder="BMI">
+                <br><br>
+                <span for="bmr">BMR</span>
+                <input type="text" id="bmr" [(ngModel)]="bmrValue" [ngModelOptions]="{ standalone: true }" class="BMR" placeholder="BMR">
+                <br><br>
+                <button class="btMuscle" type="submit" (click)="onMuscleButtonClick()">Muscle</button>
+                <br>
+                <button class="btWeight" type="submit" (click)="onWeightButtonClick()">Weight</button>            
+                <hr>
+            </form>
+        </div>
+    </body>
+</html>
+

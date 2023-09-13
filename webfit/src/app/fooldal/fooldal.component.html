@@ -1,0 +1,45 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+            <link rel="stylesheet" href="fooldal.component.css">
+            <title>WebFit</title>
+    </head>
+    <body>
+        <header>
+            WebFit
+        </header>
+        <div class="BMI">
+            <form>
+                <hr>
+                <h1>BMI számláló</h1>
+                <span>Név</span>
+                <br>
+                <input type="text" class="Név" placeholder="Saját elnevezésed">
+                <br><br>
+                <span>Testsúlyod(kg)</span>
+                <br>
+                <input type="text" [(ngModel)]="testsuly" [ngModelOptions]="{ standalone: true }" class="testsuly" placeholder="pl:75">
+                <br><br>
+                <span>Magasságod(cm)</span>
+                <br>
+                <input type="text" [(ngModel)]="magassag" [ngModelOptions]="{ standalone: true }" class="magassag" placeholder="pl:187">
+                <br><br>
+                <span>Életkorod</span>
+                <br>
+                <input type="text" [(ngModel)]="eletkor" [ngModelOptions]="{ standalone: true }" class="eletkor" placeholder="pl:35">
+                <br><br>
+                <span>Nemed</span>
+                <br>
+                <input type="text" [(ngModel)]="nemed" [ngModelOptions]="{ standalone: true }" class="nemed" placeholder="pl:true ha férfi/False ha nő">
+                <br><br>
+                <span>Napi mozgásod(1-10)</span>
+                <br>
+                <input type="text" class="Napimozgás" placeholder="pl:6">
+                <br><br>
+                <button class="btNext" type="submit" (click)="onNextButtonClick()">Next</button>
+                               
+                <hr>
+            </form>
+        </div>
+    </body>
+</html>

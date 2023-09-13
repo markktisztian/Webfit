@@ -1,0 +1,117 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-image: url('/assets/box.jpg');
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+}
+
+header{
+    font-size: xx-large;
+    font-family: 'Lucida';
+    color: white;
+    margin-top: 250px;
+    margin-left: 450px;
+    margin-bottom: auto;
+    margin-right: auto;
+    
+}
+
+.BMI{
+    width: 450px;
+    box-shadow: 0 0 7px 0 rgb(255, 255, 255);
+    background: transparent;
+    padding: 20px;
+    margin: 8%;
+    margin-top: 100px;
+    margin-left: 250px;
+    margin-bottom: auto;
+    margin-right: auto;
+    text-align: center; 
+}
+
+.BMI span{
+    text-align: left;
+    font-size: medium;
+    font-family: lucida ;
+    color: rgb(255, 255, 255);
+
+ }
+
+ .BMI h1{
+    color: white;
+ }
+
+ .Név{
+    
+    padding: 6px;
+    margin: 10px 3.5;
+    width: 70%;
+    border: 2px solid rgb(0, 0, 0);
+    outline: none;
+}
+
+.testsuly{
+    
+    padding: 6px;
+    margin: 10px 3.5;
+    width: 70%;
+    border: 2px solid rgb(0, 0, 0);
+    outline: none;
+}
+
+.magassag{
+    
+    padding: 6px;
+    margin: 10px 3.5;
+    width: 70%;
+    border: 2px solid rgb(0, 0, 0);
+    outline: none;
+}
+
+.nemed{
+    
+    padding: 6px;
+    margin: 10px 3.5;
+    width: 70%;
+    border: 2px solid rgb(0, 0, 0);
+    outline: none;
+}
+
+.eletkor{
+    
+    padding: 6px;
+    margin: 10px 3.5;
+    width: 70%;
+    border: 2px solid rgb(0, 0, 0);
+    outline: none;
+}
+
+.Napimozgás{
+    
+    padding: 6px;
+    margin: 10px 3.5;
+    width: 70%;
+    border: 2px solid rgb(0, 0, 0);
+    outline: none;
+}
+
+button{
+    color: white;
+    width: 40%;
+    padding: 6px;
+    font-size: 15px;
+    margin: 10px 4;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    
+}
+
+.btNext{
+    text-align: center;
+    background-color:transparent;
+    color: rgb(255, 255, 255);
+}

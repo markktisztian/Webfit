@@ -1,0 +1,24 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+	
+        <title>Webfit</title>  
+    </head>
+    <body>
+        <div class="register">
+            <form (ngSubmit)="onSubmit()" method="post" action="/register">
+                <h1>Register</h1>
+                <span>Username:</span>
+                <input type="text" [(ngModel)]="username" [ngModelOptions]="{ standalone: true }" class="username" placeholder="Username" required>
+                <br><br>
+                <span>Password:</span>
+                <input type="text" [(ngModel)]="password" [ngModelOptions]="{ standalone: true }" class="password" placeholder="Password" required>
+                <br><br>
+                <span>E-mail:</span>
+                <input type="email" [(ngModel)]="email"  [ngModelOptions]="{ standalone: true }"class="email" placeholder="webfit@gmail.com" required>
+                <br><br>
+                <button class="btregisztracio" type="submit">Register</button>
+            </form>
+        </div>
+    </body>
+</html>

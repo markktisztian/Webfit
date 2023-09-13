@@ -1,0 +1,81 @@
+
+
+body {
+        margin: 0;
+        padding: 0;
+        font-family: sans-serif;
+        background-image: url('/assets/box.jpg');
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+        overflow: hidden;
+}
+
+ 
+
+ .LoginPanel{
+    width: 300px;
+    box-shadow: 0 0 7px 0 rgb(255, 255, 255);
+    background: transparent;
+    padding: 20px;
+    margin: 8%;
+    margin-top: 400px;
+    margin-left: 350px;
+    margin-bottom: auto;
+    margin-right: auto;
+    text-align: center;
+ }
+
+ .LoginPanel h1{
+    font-family:'Lucida';
+    color: white;
+    margin-bottom: 30px;
+    font-size: xx-large;
+ }
+
+ .LoginPanel span{
+    text-align: left;
+    font-size: medium;
+    font-family: lucida ;
+    color: rgb(255, 255, 255);
+
+ }
+
+ .username{
+    
+    padding: 6px;
+    margin: 10px 3.5;
+    width: 70%;
+    border: 2px solid rgb(0, 0, 0);
+    outline: none;
+}
+
+.password{
+    
+    padding: 6px;
+    margin: 10px 3;
+    width: 70%;
+    border: 2px solid black;
+    outline: none;
+}
+
+button{
+    color: white;
+    width: 40%;
+    padding: 6px;
+    font-size: 15px;
+    margin: 10px 4;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.btbejelentkezes{
+    background-color:transparent;
+    color: rgb(255, 255, 255);
+}
+
+.btregisztracio{
+    background-color: transparent;
+    color: rgb(255, 255, 255);
+}
